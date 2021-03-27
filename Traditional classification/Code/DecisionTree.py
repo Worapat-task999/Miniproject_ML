@@ -28,7 +28,7 @@ plot_confusion_matrix(model, x_test, y_test)
 # accuracy
 accuracy = accuracy_score(y_true=y_test, y_pred=y_pred)
 print("Accuracy: {:.2f}%".format(accuracy*100))
-tree.plot_tree(model);
+#tree.plot_tree(model);
 
 
 #dotfile = open('dtreeDT.dot','w')
